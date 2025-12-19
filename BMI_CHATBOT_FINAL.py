@@ -3,7 +3,7 @@ from tkinter import messagebox
 import tkinter.ttk as ttk
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyAaSODd9tx6Wt1EMd3TwRKbyhWv_gxhEAM")
+genai.configure(api_key="AIzaSyA9W_VITxQVSgWa_iJnosQ3GuyzF8FBtIQ")
 def calculate():
     try:
         weight = float(weight_entry.get())
